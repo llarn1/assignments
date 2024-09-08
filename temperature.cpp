@@ -7,7 +7,7 @@ int main ()
     float F;
     cout<<"Enter Your Temperature: ";
     cin>>F;
-    // convert in to celsius
+    // convert it to celsius
     float C = (F - 32) * 5 / 9; 
     cout<<"The Temperature In celsius Is: "<<C<<"C."<<endl;
     return 0;
