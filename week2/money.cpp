@@ -4,6 +4,7 @@ using namespace std;
 
 int main()
 {
+    // we can alse implement them using macros
     const float tip_percentage = 0.10;
     const float tax_percentage = 0.07;
 
