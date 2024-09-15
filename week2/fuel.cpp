@@ -19,5 +19,5 @@ int main()
 }
 
 // i've been using endl in previous problems but switched to '\n' to get used to it, because i found that "endl"
-// is way too slower than the new line character '\n', of course this won't matter so much in simple cases
+// is way too slow than the new line character '\n', of course this won't matter so much in simple cases
 // but it can make significant difference in loops, especially when looping for large ranges for example from 0 to 10^5.
