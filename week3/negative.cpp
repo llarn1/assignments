@@ -6,6 +6,6 @@ int main(void)
     int a, b, c, d;
     cout<<"Enter the four values: ";
     cin>>a>>b>>c>>d;
-    if (a < 0 || b < 0 || c < 0 || d < 0) cout<<"Among the provided numbers, there is a negative one!\n";
+    if (a < 0 || b < 0 || c < 0 || d < 0) cout<<"Among the provided numbers, there exist a negative one!\n";
     return 0;
 }
