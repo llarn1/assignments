@@ -10,12 +10,12 @@ int main(void)
     if (d > 10000)
     {
         int left = 20000 - d;
-        cout<<"Type: major\The remaining distance: "<<left<<"\n";
+        cout<<"Service type: major\The remaining distance: "<<left<<"\n";
     }
     else
     {
         int left = 10000 - d;
-        cout<<"Type: minor\nThe remaining distance: "<<left<<"\n";
+        cout<<"Service type: minor\nThe remaining distance: "<<left<<"\n";
     }
     return 0;
 }
