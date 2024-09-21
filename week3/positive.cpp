@@ -8,6 +8,6 @@ int main(void)
     cin>>x;
 
     // taking zero as neither positive nor negative
-    if (x > 0) cout<<"Positive";
+    if (x > 0) cout<<"Positive\n";
     return 0;
 }
