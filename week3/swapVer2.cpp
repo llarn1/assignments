@@ -3,7 +3,7 @@
 using namespace std;
 int main(void)
 {
-    int a, b, c, d;
+    int a, b;
     cout<<"Enter the two values: ";
     cin>>a>>b;
     if (a > b)
