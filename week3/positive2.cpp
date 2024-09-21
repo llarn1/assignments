@@ -8,7 +8,7 @@ int main(void)
     cin>>x>>y;
 
     // taking zero as neither positive nor negative
-    if (x > 0 && y > 0) cout<<"Both Positive";
+    if (x > 0 && y > 0) cout<<"Both Positive\n";
     return 0;
 }
 
