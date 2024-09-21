@@ -6,6 +6,7 @@ int main(void)
     int age;
     cout<<"Enter your age: ";
     cin>>age;
-    if (age >= 19) cout<<"You can drive a car\n";
+    if (age <= 0 || age >= 133) cout<<"Invalid input\n";
+    else if (age >= 19) cout<<"You can drive a car\n";
     return 0;
 }
