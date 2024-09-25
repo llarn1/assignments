@@ -3,19 +3,19 @@
 using namespace std;
 int main(void)
 {
-    int d;
+    floot d;
     cout<<"Enter the miles traveled: ";
     cin>>d;
-    // assuming at exactly 10,000 km the driver will take the minor service with zero distance left.
-    if (d > 10000)
+    // assuming at exactly 10,000 km (6213.71miles) the driver will take the minor service with zero distance left.
+    if (d > 6213.71)
     {
-        int left = 20000 - d;
-        cout<<"Service type: major\The remaining distance: "<<left<<"\n";
+        floot left = 12427.42 - d;
+        cout<<"Service type: major\The remaining distance: "<<left<<"miles\n";
     }
     else
     {
-        int left = 10000 - d;
-        cout<<"Service type: minor\nThe remaining distance: "<<left<<"\n";
+        floot left = 6213.71 - d;
+        cout<<"Service type: minor\nThe remaining distance: "<<left<<"miles\n";
     }
     return 0;
 }
